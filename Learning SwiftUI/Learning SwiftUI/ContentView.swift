@@ -10,7 +10,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            TextFieldView(title: "Account", placeholder: "Type your account") { (text) in
+                print(text)
+            }
+            
+            TextFieldView(title: "Password", placeholder: "Type your password") { (text) in
+                print(text)
+            }
+        
+        }
     }
 }
 
