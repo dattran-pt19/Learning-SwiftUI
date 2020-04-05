@@ -10,7 +10,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        VStack(alignment: .center, spacing: 20) {
+            ShadowButtonView(title: "Create", image: Image(systemName: "plus.app"))
+            ShadowButtonView(title: "Edit")
+            ShadowButtonView(title: "Share")
+            ShadowButtonView(title: "Delete", image: Image(systemName: "trash"))
+        }
     }
 }
 

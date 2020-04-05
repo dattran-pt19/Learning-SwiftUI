@@ -13,6 +13,8 @@
 		E2BC54EC24399706006D9798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2BC54EB24399706006D9798 /* Assets.xcassets */; };
 		E2BC54EF24399706006D9798 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2BC54EE24399706006D9798 /* Preview Assets.xcassets */; };
 		E2BC54F224399706006D9798 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2BC54F024399706006D9798 /* LaunchScreen.storyboard */; };
+		E2BC54FB24399796006D9798 /* ShadowButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BC54FA24399796006D9798 /* ShadowButtonView.swift */; };
+		E2BC54FE2439B526006D9798 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BC54FD2439B526006D9798 /* ButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E2BC54EE24399706006D9798 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E2BC54F124399706006D9798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2BC54F324399706006D9798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2BC54FA24399796006D9798 /* ShadowButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowButtonView.swift; sourceTree = "<group>"; };
+		E2BC54FD2439B526006D9798 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,22 @@
 				E2BC54EE24399706006D9798 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E2BC54F92439977A006D9798 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E2BC54FA24399796006D9798 /* ShadowButtonView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E2BC54FC2439B500006D9798 /* StyleView */ = {
+			isa = PBXGroup;
+			children = (
+				E2BC54FD2439B526006D9798 /* ButtonStyle.swift */,
+			);
+			path = StyleView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +170,8 @@
 			files = (
 				E2BC54E624399705006D9798 /* AppDelegate.swift in Sources */,
 				E2BC54E824399705006D9798 /* SceneDelegate.swift in Sources */,
+				E2BC54FB24399796006D9798 /* ShadowButtonView.swift in Sources */,
+				E2BC54FE2439B526006D9798 /* ButtonStyle.swift in Sources */,
 				E2BC54EA24399705006D9798 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

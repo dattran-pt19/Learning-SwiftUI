@@ -9,13 +9,30 @@
 import SwiftUI
 
 struct ShadowButtonView: View {
+    var title: String?
+    var image: Image?
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button(action: {
+            print("Tap button")
+        }) {
+            HStack {
+                image
+                    .font(.title)
+                    .padding(5)
+                Text(title ?? "")
+                    .fontWeight(.bold)
+                    .font(.title)
+            }
+        }
+        .buttonStyle(GradientButtonStyle())
     }
 }
 
+#if DEBUG
 struct ShadowButtonView_Previews: PreviewProvider {
     static var previews: some View {
         ShadowButtonView()
     }
 }
+#endif
